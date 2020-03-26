@@ -3,6 +3,9 @@ body{
     font-family: 'Oswald', sans-serif;
     background-color: rgb(95, 136, 141);
 }
+#back{
+	position:absolute; top:10px ; right:10px;
+}
 h1{
     font-size: 60px;
     color: white
@@ -58,8 +61,25 @@ h4{
 }
 
 #about{
-	width : 800px;
+	width : 700px;
 }
 p{
 	font-size:25px
+}
+#cs{
+	width: 700px;
+	height: 450px;
+}
+#tabla{
+	width: 400px;
+	height:300px;
+}
+#tennis{
+	width: 330px;
+	height:350px;
+}
+.images{
+	position:absolute; top:100px ; left: 750px ;
+	width: 800px;
+	display: -webkit-box;
 }
