@@ -12,7 +12,7 @@ h1{
 }
 h3{
     font-size: 38px;
-    color:white;
+    color:black;
 
 }
 h4{
@@ -23,7 +23,8 @@ h4{
     display:inline-block;
     text-align:center;
     margin-top:10%;
-    margin-left:5%;
+	margin-left:15%;
+	position:absolute
 }
 .btn {
     font-size: 18pt;
@@ -60,8 +61,8 @@ h4{
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
-#about{
-	width : 700px;
+.about{
+	width : 60%;
 }
 p{
 	font-size:25px
@@ -79,7 +80,22 @@ p{
 	height:350px;
 }
 .images{
-	position:absolute; top:100px ; left: 750px ;
-	width: 800px;
+	position:absolute; top:100px ; left: 65% ;
+	width: 40%;
 	display: -webkit-box;
+}
+#alchemyimg{
+	width: 400px;
+	position:absolute; top:600px; left: 65% ;
+}
+#dmiimg{
+	width: 500px;
+	position:absolute; top:200px; left: 63% ;
+}
+#accentureimg{
+	width: 370px;
+	position:absolute; top:850px; left: 65% ;
+}
+#wop{
+	position:absolute; top:15%; left: 30% ;
 }
