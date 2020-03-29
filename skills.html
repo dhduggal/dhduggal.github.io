@@ -2,12 +2,108 @@
 <html>
     <head>
         <title>Dhruv's Website</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta charset="utf-8" />
     </head>
     <body>
-        <div id = "header" class="text">
+        <div id = "about" class="text">
             <h1>My Skills</h1> 
-            
+        </div>
+        <button class="btn" id="back" onclick="window.location.href='index.html'">Main Page</button>
+        <script>
+                let font,
+                fontsize = 30;
+
+                function setup() {
+                    createCanvas(window.innerWidth - 100, window.innerHeight);
+
+                    textSize(fontsize);
+                    textAlign(CENTER, CENTER);
+                }
+
+                function draw() {
+                    background(45, 116, 223);
+
+                    
+                    textAlign(RIGHT);
+                    drawLanguages(window.innerWidth * 0.25);
+
+                    textAlign(CENTER);
+                    drawConcepts(window.innerWidth * 0.5);
+
+
+                    textAlign(LEFT);
+                    drawNew(window.innerWidth * 0.75);
+                }
+
+                function drawLanguages(x) {
+
+                    fill(0);
+                    text('Java', x, 200);
+
+                    fill(40);
+                    text('Python', x, 270);
+                    
+                    fill(80);
+                    text('SQL', x ,340);
+
+                    fill(100);
+                    text('C#/C/C++', x, 410);
+
+                    fill(190);
+                    text('Javascript', x, 480);
+                    
+                    fill(250);
+                    text('Assembly', x, 550);
+                
+                }
+
+                function drawConcepts(x){
+                    fill(0);
+                    text('Data Mining', x, 200);
+
+                    fill(40);
+                    text('Machine Learning/AI', x, 270);
+                    
+                    fill(80);
+                    text('Data Analysis', x ,340);
+
+                    fill(100);
+                    text('AWS Athena', x, 410);
+
+                    fill(190);
+                    text('Scikit Learn', x, 480);
+                    
+                    fill(250);
+                    text('Security', x, 550);
+                }
+
+                function drawNew(x){
+                    fill(0);
+                    text('Unix', x, 200);
+
+                    fill(40);
+                    text('Latex', x, 270);
+                    
+                    fill(100);
+                    text('HTML5', x ,340);
+
+                    fill(80);
+                    text('Web Scrapping', x, 410);
+
+                    fill(190)
+                    text('Android Developement',x, 480);
+
+                    fill(250);
+                    text('Dynammic Programming',x,550);
+
+
+
+                }
+        </script>
     </body>
 </html>
