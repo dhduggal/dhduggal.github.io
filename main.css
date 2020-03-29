@@ -21,10 +21,9 @@ h4{
 }
 #header {
     display:inline-block;
-    text-align:center;
-    margin-top:10%;
-	margin-left:15%;
-	position:absolute
+	text-align:center;
+	margin: 10% 25%;
+	position:absolute;
 }
 .btn {
     font-size: 18pt;
@@ -68,34 +67,36 @@ p{
 	font-size:25px
 }
 #cs{
-	width: 700px;
-	height: 450px;
+	width: 72%;
+	height: 50%;
 }
 #tabla{
-	width: 400px;
-	height:300px;
+	width: 40%;
+	height:41%;
 }
 #tennis{
-	width: 330px;
-	height:350px;
+	width: 32%;
+	height:40%;
 }
 .images{
-	position:absolute; top:100px ; left: 65% ;
+	position:absolute; top:10% ; left: 65% ;
 	width: 40%;
 	display: -webkit-box;
 }
 #alchemyimg{
-	width: 400px;
-	position:absolute; top:600px; left: 65% ;
+	width: 15%;
+	position:absolute; top:47%; left: 66% ;
 }
 #dmiimg{
-	width: 500px;
-	position:absolute; top:200px; left: 63% ;
+	width: 18%;
+	position:absolute; top:15%; left: 64% ;
 }
 #accentureimg{
-	width: 370px;
-	position:absolute; top:850px; left: 65% ;
+	width: 12%;
+	position:absolute; top:65%; left: 67% ;
 }
 #wop{
-	position:absolute; top:15%; left: 30% ;
+	position:absolute; top:25%; left: 35% ;
+	width:30%;
+	height:50%;
 }
